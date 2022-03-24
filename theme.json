@@ -1,0 +1,67 @@
+{
+  "version": 1,
+  "settings": {
+    "layout": {
+      "contentSize": "960px",
+      "wideSize": "1280px"
+    },
+    "color": {
+      "palette": [
+        {
+          "name": "Pastel Blue",
+          "slug": "pastelblue",
+          "color": "#F3F9FB"
+        },
+        {
+          "name": "Pastel Purple",
+          "slug": "pastelpurple",
+          "color": "#F5F3FB"
+        },
+        {
+          "name": "Pasel Pink",
+          "slug": "pastelpink",
+          "color": "#FBF3F4"
+        },
+        {
+          "name": "Pastel Yellow",
+          "slug": "pastelyellow",
+          "color": "#FBF9F3"
+        }
+      ]
+    },
+    "typography": {
+      "fontSizes": [
+        {
+          "name": "Small",
+          "slug": "small",
+          "size": "0.875rem"
+        },
+        {
+          "slug": "regular",
+          "name": "Regular",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "large",
+          "name": "Large",
+          "size": "1.125rem"
+        },
+        {
+          "slug": "xl",
+          "name": "XL",
+          "size": "1.25rem"
+        },
+        {
+          "slug": "xxl",
+          "name": "2XL",
+          "size": "1.5rem"
+        },
+        {
+          "slug": "xxxl",
+          "name": "3XL",
+          "size": "1.875rem"
+        }
+      ]
+    }
+  }
+}

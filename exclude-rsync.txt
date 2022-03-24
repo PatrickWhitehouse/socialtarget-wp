@@ -1,0 +1,17 @@
+node_modules
+CHANGELOG.md
+LICENSE
+package.json
+package-lock.json
+postcss.config.js
+README.md
+resources
+safelist.txt
+tailwind.config.js
+theme.json
+.idea
+.gitignore
+.gitattributes
+.github
+.idea
+exclude-rsync.txt

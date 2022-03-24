@@ -1,0 +1,105 @@
+body {
+    font-family: 'Outfit', sans-serif;
+}
+
+a:hover {
+    @apply underline;
+}
+
+.btn {
+    @apply py-2 px-6 font-medium;
+    background-color: #F3D9DC;
+    border-radius: 25px;
+    transition: background-color linear .15s;
+}
+
+.btn:hover {
+    background-color: #DFD9F3;
+    transition: background-color linear .15s;
+}
+
+.hero {
+    height: 70vh;
+    max-height: 750px;
+    background-image: url("../images/pink-squiggle.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.hero-blue {
+    background-image: url("../images/blue-squiggle.svg");
+}
+
+.cards {
+    @apply my-12 lg:grid lg:grid-cols-3 lg:gap-12;
+}
+
+.card {
+    @apply flex flex-col items-center justify-between text-center p-6 shadow-2xl;
+    min-height: 350px;
+    border-radius: 5px;
+}
+
+.card:hover{
+    text-decoration: none;
+}
+
+.card:hover .btn{
+    background-color: #DFD9F3;
+    @apply underline;
+}
+
+.gold-hover:hover .gold-target-key {
+    content: url("../images/key-gold.png");
+}
+
+.gold-hover:hover .gold-target-brush {
+    content: url("../images/brush-gold.png");
+}
+
+.gold-hover:hover .gold-target-computer {
+    content: url("../images/computer-gold.png");
+}
+
+.cta {
+    @apply p-6 my-12;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cta-blue{
+    @apply bg-pastelblue;
+}
+
+.cta-heading{
+    @apply text-4xl mb-6 font-semibold;
+}
+
+.section__wrapper {
+    @apply container mx-auto flex items-center justify-between;
+    min-height: 500px;
+}
+
+.section__info {
+    flex: 0 1 auto;
+}
+
+.section__img{
+    flex: 0 0 400px;
+}
+
+.section__img img {
+    @apply mx-auto;
+}
+
+.section--pink{
+    @apply bg-pastelpink;
+}
+
+.section--blue{
+    @apply bg-pastelblue;
+}
